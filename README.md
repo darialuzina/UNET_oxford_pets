@@ -22,16 +22,3 @@ transform = T.Compose([
     T.Resize((256, 256)),
     T.ToTensor(),
 ])
-
-🚀 Training Setup
-
-Hyperparameters:
-Optimizer: Adam
-Loss Function: CrossEntropyLoss
-Batch Size: 16
-Learning Rate: 1e-3
-Epochs: Optimized for 88% accuracy
-
-🎯 Predictions
-
-200 random samples are selected for validation:
